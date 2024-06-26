@@ -1,4 +1,4 @@
-# XR-Training for lomeetei
+# XR-Training
 # Testcase to check interface shut/noshut 
 {
     "plugins": "xr_sim_launch.py,/auto/firex/STAGING_22016/firex/venv/lib/python3.9/site-packages/firex_cisco/testy/bin/testy_launch.py,/auto/firex/STAGING_22016/firex/venv/lib/python3.9/site-packages/firex_cisco/testy/plugins/testy_common_plugin.py",
