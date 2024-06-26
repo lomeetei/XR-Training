@@ -1,29 +1,29 @@
 # XR-Training
 # Testcase to check interface shut/noshut 
 {
-    "plugins": "xr_sim_launch.py,/auto/firex/STAGING_21986/firex/venv/lib/python3.9/site-packages/firex_cisco/testy/bin/testy_launch.py,/auto/firex/STAGING_21986/firex/venv/lib/python3.9/site-packages/firex_cisco/testy/plugins/testy_common_plugin.py",
+    "plugins": "xr_sim_launch.py,/auto/firex/STAGING_22016/firex/venv/lib/python3.9/site-packages/firex_cisco/testy/bin/testy_launch.py,/auto/firex/STAGING_22016/firex/venv/lib/python3.9/site-packages/firex_cisco/testy/plugins/testy_common_plugin.py",
     "decomm_tb_after_test": true,
     "data": {
-        "ws": "/ws/pulakra-bgl/xr",
+        "ws": "/ws/lomeetei-bgl/XR-Training",
         "plat": "8000",
         "framework": "cafy2",
-        "topo_file": "/ws/pulakra-bgl/xr/test/ap/training/F2_Spitfire_Template.yaml",
-        "testbed_logs_dir": "/auto/firex-logs-bgl/pulakra/FireX-pulakra-240625-035946-38901/testbed_logs/BringupTestbed-9c93600d-d8dd-4f79-a068-15bcadd58b27",
-        "xunit_results_filepath": "/auto/firex-logs-bgl/pulakra/FireX-pulakra-240625-035946-38901/tests_logs/training_ap_8000_34996E7B/xunit_results.xml",
+        "topo_file": "/ws/lomeetei-bgl/XR-Training/test/ap/training/F2_Spitfire_Template.yaml",
+        "testbed_logs_dir": "/auto/firex-logs-bgl/lomeetei/FireX-lomeetei-240626-012048-9713/testbed_logs/BringupTestbed-fc0d8309-0a76-4414-8e8c-6fa3366db285",
+        "xunit_results_filepath": "/auto/firex-logs-bgl/lomeetei/FireX-lomeetei-240626-012048-9713/tests_logs/training_ap_8000_34996E7B/xunit_results.xml",
         "logstash_container_id": null,
-        "replace_script_name": "training_ap.py --test-input-file=/ws/pulakra-bgl/xr/test/ap/training/training_ap_input_file.json",
+        "replace_script_name": "training_ap.py --test-input-file=/ws/lomeetei-bgl/XR-Training/test/ap/training/training_ap_input_file.json",
         "image_name": null,
         "images": null,
         "spirent_image_basepath": "/auto/vxr/images/spirent/",
         "ixia_image_basepath": "/auto/vxr/images/ixia/",
         "sim_rel": null,
-        "sim_host": "xr-cloud-213",
+        "sim_host": "xr-cloud-215",
         "use_aws": false,
         "logstash_ip_address": null,
         "logstash_port": null,
         "moonshine_img": null,
         "moonshine_img_v2": null,
-        "testbed": "/auto/firex-logs-bgl/pulakra/FireX-pulakra-240625-035946-38901/service_data/BootVxSim/task_data/f9e09c34-cdeb-4ec9-a500-61ed509d0841/cafy2_tb_file.json",
+        "testbed": "/auto/firex-logs-bgl/lomeetei/FireX-lomeetei-240626-012048-9713/service_data/BootVxSim/task_data/a0e8423a-b2eb-4648-9251-210e56449e1f/cafy2_tb_file.json",
         "testbed_path": null,
         "topology": {
             "devices": {
@@ -44,8 +44,8 @@
                         "FourHundredGigE0/0/0/6",
                         "FourHundredGigE0/0/0/7"
                     ],
-                    "image": "/ws/pulakra-bgl/xr/img-8000/8000-x64.iso",
-                    "sim_host": "xr-cloud-213"
+                    "image": "/ws/lomeetei-bgl/XR-Training/img-8000/8000-x64.iso",
+                    "sim_host": "xr-cloud-215"
                 },
                 "R2": {
                     "xr_port_redir": [
@@ -64,8 +64,8 @@
                         "FourHundredGigE0/0/0/6",
                         "FourHundredGigE0/0/0/7"
                     ],
-                    "image": "/ws/pulakra-bgl/xr/img-8000/8000-x64.iso",
-                    "sim_host": "xr-cloud-213"
+                    "image": "/ws/lomeetei-bgl/XR-Training/img-8000/8000-x64.iso",
+                    "sim_host": "xr-cloud-215"
                 }
             },
             "connections": {
@@ -106,16 +106,16 @@
             },
             "simulation": {
                 "sim_rel": "/auto/vxr/vxr2_user/vxr2_npsuite_1.113.1",
-                "sim_dir": "/nobackup/pulakra/FireX-pulakra-240625-035946-38901-6664",
-                "sim_host": "xr-cloud-213",
-                "sim_host_username": "pulakra"
+                "sim_dir": "/nobackup/lomeetei/FireX-lomeetei-240626-012048-9713-6992",
+                "sim_host": "xr-cloud-215",
+                "sim_host_username": "lomeetei"
             }
         },
         "slurm_cluster_head": "xr-cloud-m201",
-        "slurm_jobid": "6664",
-        "cflow_vxr_server": "xr-cloud-213",
-        "topo_path": "/ws/pulakra-bgl/xr/test/ap/training/F2_Spitfire_Template.yaml",
-        "sim_working_dir": "/auto/firex-logs-bgl/pulakra/FireX-pulakra-240625-035946-38901/service_data/BootVxSim/task_data/f9e09c34-cdeb-4ec9-a500-61ed509d0841",
+        "slurm_jobid": "6992",
+        "cflow_vxr_server": "xr-cloud-215",
+        "topo_path": "/ws/lomeetei-bgl/XR-Training/test/ap/training/F2_Spitfire_Template.yaml",
+        "sim_working_dir": "/auto/firex-logs-bgl/lomeetei/FireX-lomeetei-240626-012048-9713/service_data/BootVxSim/task_data/a0e8423a-b2eb-4648-9251-210e56449e1f",
         "tb_data": {
             "name": "generated-vxsim",
             "nodes": [
@@ -133,8 +133,8 @@
                             "address_info": [
                                 {
                                     "name": "a",
-                                    "address": "10.104.60.193",
-                                    "port": 26217
+                                    "address": "10.104.60.195",
+                                    "port": 10797
                                 }
                             ]
                         },
@@ -144,8 +144,8 @@
                             "address_info": [
                                 {
                                     "name": "ssh",
-                                    "address": "10.104.60.193",
-                                    "port": 12285
+                                    "address": "10.104.60.195",
+                                    "port": 18841
                                 }
                             ]
                         }
@@ -224,8 +224,8 @@
                             "address_info": [
                                 {
                                     "name": "a",
-                                    "address": "10.104.60.193",
-                                    "port": 17813
+                                    "address": "10.104.60.195",
+                                    "port": 23353
                                 }
                             ]
                         },
@@ -235,8 +235,8 @@
                             "address_info": [
                                 {
                                     "name": "ssh",
-                                    "address": "10.104.60.193",
-                                    "port": 19613
+                                    "address": "10.104.60.195",
+                                    "port": 23665
                                 }
                             ]
                         }
@@ -316,9 +316,9 @@
             ],
             "simulation": {
                 "sim_rel": "/auto/vxr/vxr2_user/vxr2_npsuite_1.113.1",
-                "sim_dir": "/nobackup/pulakra/FireX-pulakra-240625-035946-38901-6664",
-                "sim_host": "xr-cloud-213",
-                "sim_host_username": "pulakra",
+                "sim_dir": "/nobackup/lomeetei/FireX-lomeetei-240626-012048-9713-6992",
+                "sim_host": "xr-cloud-215",
+                "sim_host_username": "lomeetei",
                 "sim_host_password": ""
             }
         },
